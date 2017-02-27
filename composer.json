@@ -1,0 +1,23 @@
+{
+  "name": "karriere/legacy",
+  "description": "",
+  "homepage": "https://github.com/karriereat/legacy",
+  "authors": [
+    {
+      "name": "Johannes Pichler",
+      "email": "johannes.pichler@karriere.at"
+    }
+  ],
+  "keywords": [
+  ],
+  "license": "Apache-2.0",
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Karriere\\Legacy\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
