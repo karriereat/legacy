@@ -6,6 +6,11 @@ place this after `session_start` and before helper usage:
 \Karriere\Legacy\Bootstrap::initialize();
 ```
 
+## die dump
+```php
+dd('any value');
+```
+
 ## session
 
 ### get session instance
@@ -34,6 +39,7 @@ session()->flash($key, $value);
 ### send redirect
 ```php
 redirect($url, $statuscode)->send();
+```
 
 ### redirect with flash message
 ```php
