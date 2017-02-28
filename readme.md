@@ -65,7 +65,7 @@ redirect('http://www.karriere.at', 301)->send();
 #### redirect with flash message
 The redirector allows to store flash messages before sending the actual redirect.
 ```php
-redirect($url, $statusCode)->with('status', 'something happened')->send();
+redirect('http://www.karriere.at')->with('status', 'something happened')->send();
 ```
 
 ## License
