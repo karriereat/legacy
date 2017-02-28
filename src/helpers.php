@@ -12,7 +12,7 @@ if (!function_exists('session')) {
     /**
      * @param null $key
      * @param null $default
-     * @return \Karriere\Legacy\Session|null|void
+     * @return \Karriere\Legacy\Session|mixed
      */
     function session($key = null, $default = null)
     {
