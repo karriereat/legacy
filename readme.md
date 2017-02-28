@@ -1,5 +1,6 @@
 <a href="https://www.karriere.at/" target="_blank"><img width="200" src="http://www.karriere.at/images/layout/katlogo.svg"></a>
 <span>&nbsp;&nbsp;&nbsp;</span>
+[![StyleCI](https://styleci.io/repos/83349380/shield?branch=master)](https://styleci.io/repos/83349380)
 
 # Legacy Helpers
 This package contains some convenient helper functions inspired by laravel helpers that can be used in a legacy application without a container.
