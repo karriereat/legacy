@@ -10,7 +10,7 @@ class Bootstrap
     public static function initialize()
     {
         self::$session = new Session();
-        
+
         require_once __DIR__ . DIRECTORY_SEPARATOR . 'helpers.php';
     }
 
