@@ -11,7 +11,7 @@ class Bootstrap
     {
         self::$session = new Session();
 
-        require_once __DIR__ . DIRECTORY_SEPARATOR . 'helpers.php';
+        require_once __DIR__.DIRECTORY_SEPARATOR.'helpers.php';
     }
 
     /**
