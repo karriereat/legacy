@@ -12,6 +12,7 @@ if (!function_exists('session')) {
     /**
      * @param null $key
      * @param null $default
+     *
      * @return \Karriere\Legacy\Session|mixed
      */
     function session($key = null, $default = null)
@@ -26,6 +27,7 @@ if (!function_exists('session')) {
             foreach ($key as $index => $value) {
                 $session->put($index, $value);
             }
+
             return true;
         }
 
